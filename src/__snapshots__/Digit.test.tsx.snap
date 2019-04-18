@@ -1,0 +1,393 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 70px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.c1 {
+  position: relative;
+  -webkit-flex: 0 0 10px;
+  -ms-flex: 0 0 10px;
+  flex: 0 0 10px;
+  background-color: red;
+  position: relative;
+  margin: 12px 0 2px;
+  height: 40px;
+  background-color: red;
+  opacity: 1;
+}
+
+.c1::before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  background-color: transparent;
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-bottom: 5px solid red;
+  left: 0;
+  top: -10px;
+}
+
+.c1::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  background-color: transparent;
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid red;
+  left: 0;
+  bottom: -10px;
+}
+
+.c2 {
+  position: relative;
+  -webkit-flex: 0 0 10px;
+  -ms-flex: 0 0 10px;
+  flex: 0 0 10px;
+  background-color: red;
+  border: 0;
+  position: relative;
+  background-color: red;
+  -webkit-flex: 1 1 calc(100% - 10px * 4);
+  -ms-flex: 1 1 calc(100% - 10px * 4);
+  flex: 1 1 calc(100% - 10px * 4);
+  height: 10px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  opacity: 1;
+}
+
+.c2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  background-color: transparent;
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid red;
+  top: 0;
+  left: -10px;
+}
+
+.c2::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  background-color: transparent;
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid red;
+  top: 0;
+  right: -10px;
+}
+
+.c3 {
+  position: relative;
+  -webkit-flex: 0 0 10px;
+  -ms-flex: 0 0 10px;
+  flex: 0 0 10px;
+  background-color: red;
+  position: relative;
+  margin: 12px 0 2px;
+  height: 40px;
+  background-color: red;
+  opacity: 1;
+}
+
+.c3::before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  background-color: transparent;
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-bottom: 5px solid red;
+  left: 0;
+  top: -10px;
+}
+
+.c3::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  background-color: transparent;
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid red;
+  left: 0;
+  bottom: -10px;
+}
+
+.c4 {
+  position: relative;
+  -webkit-flex: 0 0 10px;
+  -ms-flex: 0 0 10px;
+  flex: 0 0 10px;
+  background-color: red;
+  border: 0;
+  position: relative;
+  background-color: red;
+  -webkit-flex: 0 0 calc(100% - 20px);
+  -ms-flex: 0 0 calc(100% - 20px);
+  flex: 0 0 calc(100% - 20px);
+  height: 10px;
+  margin: 0 10px;
+  opacity: 1;
+}
+
+.c4::before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  background-color: transparent;
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid red;
+  top: 0;
+  left: -10px;
+}
+
+.c4::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  background-color: transparent;
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid red;
+  top: 0;
+  right: -10px;
+}
+
+.c5 {
+  position: relative;
+  -webkit-flex: 0 0 10px;
+  -ms-flex: 0 0 10px;
+  flex: 0 0 10px;
+  background-color: red;
+  height: 40px;
+  position: relative;
+  margin: 2px 0 12px;
+  background-color: red;
+  opacity: 1;
+}
+
+.c5::before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  background-color: transparent;
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-bottom: 5px solid red;
+  left: 0;
+  top: -10px;
+}
+
+.c5::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  background-color: transparent;
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid red;
+  left: 0;
+  bottom: -10px;
+}
+
+.c6 {
+  position: relative;
+  -webkit-flex: 0 0 10px;
+  -ms-flex: 0 0 10px;
+  flex: 0 0 10px;
+  background-color: red;
+  border: 0;
+  position: relative;
+  background-color: red;
+  -webkit-flex: 1 1 calc(100% - 10px * 4);
+  -ms-flex: 1 1 calc(100% - 10px * 4);
+  flex: 1 1 calc(100% - 10px * 4);
+  height: 10px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  opacity: 1;
+}
+
+.c6::before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  background-color: transparent;
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid red;
+  top: 0;
+  left: -10px;
+}
+
+.c6::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  background-color: transparent;
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid red;
+  top: 0;
+  right: -10px;
+}
+
+.c7 {
+  position: relative;
+  -webkit-flex: 0 0 10px;
+  -ms-flex: 0 0 10px;
+  flex: 0 0 10px;
+  background-color: red;
+  height: 40px;
+  position: relative;
+  margin: 2px 0 12px;
+  background-color: red;
+  opacity: 1;
+}
+
+.c7::before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  background-color: transparent;
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-bottom: 5px solid red;
+  left: 0;
+  top: -10px;
+}
+
+.c7::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  background-color: transparent;
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid red;
+  left: 0;
+  bottom: -10px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  />
+  <div
+    className="c2"
+  />
+  <div
+    className="c3"
+  />
+  <div
+    className="c4"
+  />
+  <div
+    className="c5"
+  />
+  <div
+    className="c6"
+  />
+  <div
+    className="c7"
+  />
+</div>
+`;
