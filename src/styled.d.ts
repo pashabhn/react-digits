@@ -1,4 +1,5 @@
 import 'styled-components'
+import { DigitProp } from './types'
 
 declare module 'styled-components' {
   export interface DefaultTheme {
@@ -6,5 +7,6 @@ declare module 'styled-components' {
     height: number
     lineColor: string
     lineWidth: number
+    digit: DigitProp
   }
 }

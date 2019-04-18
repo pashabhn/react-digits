@@ -5,6 +5,7 @@ const theme: DefaultTheme = {
   height: 40,
   lineColor: 'red',
   lineWidth: 10,
+  digit: 'eight',
 }
 
 export { theme }
