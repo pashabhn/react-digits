@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["dom", "dom.iterable"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "jsx": "react"
+  },
+  "include": [
+    "src/Digit.tsx",
+    "src/components.tsx",
+    "src/constants.tsx",
+    "src/css.tsx",
+    "src/theme.tsx",
+    "src/types.tsx",
+    "src/styled.d.ts",
+    "src/react-app-env.d.ts"
+  ]
+}

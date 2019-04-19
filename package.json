@@ -1,21 +1,19 @@
 {
   "name": "react-digits",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
-    "@types/node": "11.13.4",
-    "@types/react": "16.8.13",
-    "@types/react-dom": "16.8.4",
-    "@types/styled-components": "^4.1.14",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "2.1.8",
     "styled-components": "^4.2.0",
     "typescript": "3.4.3"
   },
+  "main": "dist/Digit.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "dist": "rimraf dist && tsc -p tsconfig.production.json --outDir dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -28,17 +26,20 @@
     "not ie <= 11",
     "not op_mini all"
   ],
+  "resolutions": {
+    "styled-components": "4.2.0"
+  },
   "devDependencies": {
-    "@types/chai": "^4.1.7",
-    "@types/enzyme": "^3.9.1",
-    "@types/enzyme-adapter-react-16": "^1.0.5",
-    "@types/jest": "^24.0.11",
-    "@types/react-test-renderer": "^16.8.1",
+    "@types/node": "^11.13.5",
+    "@types/react": "^16.8.13",
+    "@types/react-dom": "^16.8.4",
+    "@types/styled-components": "^4.1.14",
     "chai": "^4.2.0",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.12.1",
     "jest-styled-components": "^6.3.1",
     "prop-types": "^15.7.2",
-    "react-test-renderer": "^16.8.6"
+    "react-test-renderer": "^16.8.6",
+    "rimraf": "^2.6.3"
   }
 }
